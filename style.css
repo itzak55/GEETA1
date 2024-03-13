@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+background: url(tttt.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 20px;
+   
+}
+
+#logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#btn{
+    font-size: 20px;
+    padding: 3px 20px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+#left, #right {
+    margin: 4px;
+    background: gray;
+    text-align: center;
+    width: 210px;
+    box-shadow: 5px 5px lightgoldenrodyellow;
+    opacity: 0.6;
+    
+}
+
+#left a ,#right a {
+    text-decoration: none;
+
+}
+
+#left a li,#right a li{
+    list-style: none;
+    font-size: 1vw;
+    margin: 25px;
+    color:blue;
+    color: blanchedalmond;
+    font-weight: 600;
+
+}
+
+#left a li:hover,#right a li:hover{
+    color: green;
+    background-color: brown;
+    border-radius: 3px;
+    padding: 4px;
+    font-size: 20px;
+   
+}
+
+
+#mid{
+    color:wheat;
+   
+    width:60%;
+}
+
+
+footer{
+    height: 50px;
+ 
+ 
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    border: 2px solid chartreuse;
+    margin-top: 10px;
+    background-color: aquamarine ;
+}
+
+
+#foot{
+    
+    display: flex;
+    justify-content: space-around;
+}
+#foot a {
+
+    text-decoration: none;
+}
+
+#foot a li{
+    list-style: none;
+}
